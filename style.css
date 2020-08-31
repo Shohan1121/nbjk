@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    background-image: url("img/bora.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    width: 800px;
+    height: 800px;
+    margin: 10px auto;
+    position: relative;
+    border-radius: 10px;
+    background-size: cover;
+    background-color: rgba(0, 183, 255, 0.5);
+}
+
+.menu {
+    width: 80%;
+    margin: 0 auto;
+    height: 150px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.logo {
+    width: 25%;
+    height: 100%;
+    background-image: url("img/ii.png");
+    float: left;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menubar {
+    float: left;
+}
+
+.mn {
+    float: left;
+    width: 75%;
+    height: 100%;
+}
+
+.menubar li {
+    margin: 50px 40px;
+    list-style-type: none;
+    float: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menubar li a {
+    text-decoration: none;
+    transition: .4s;
+    color: rgb(147, 255, 147);
+}
+
+.menubar li a:hover {
+    color: rgb(253, 255, 254);
+    transition: .4s;
+    font-size: 34px;
+}
+
+.extra {
+    color: white;
+}
+
+.extra h3 {
+    color: white;
+}
+
+.extra p {
+    text-align: center;
+}
+
+.extra ul li {
+    list-style-type: none;
+    float: left;
+    margin: 10px;
+    font-size: 50px;
+}
+
+.extra ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.extra ul li a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    transition: 0.2s;
+}
+
+.mainbox {
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 10px;
+}
+
+.leftbox {
+    width: 350px;
+    height: 700px;
+    float: left;
+    border-radius: 10px 0 0 10px;
+}
+
+.rightbox {
+    width: 350px;
+    height: 700px;
+    float: left;
+    border-radius: 0px 10px 10px 0px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+input {
+    height: 25px;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+.inputTitle {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.name {
+    margin: 13px;
+    width: 40%;
+    float: left;
+}
+
+#position {
+    display: block;
+    width: 91%;
+    margin: 0 auto;
+    height: 30px;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+#company {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.name1 {
+    width: 40%;
+    float: left;
+    margin: 0px 13px 13px 13px;
+}
+
+.street {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.radio {
+    margin: 0 0 0 15px;
+    float: left;
+}
+
+.span {
+    margin: 7px 0 0 10px;
+    float: left;
+    font-size: 12px;
+}
+
+.submit {
+    display: block;
+    margin: 50px auto;
+}
+
+.middleRight {
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    top: 200px;
+    color: white;
+}
+
+.middleRight h3 {
+    color: white;
+    font-size: 40px;
+}
+
+.submit1 {
+    display: block;
+    margin: 0px auto;
+    border-radius: 20px;
+}
